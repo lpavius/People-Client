@@ -1,0 +1,9 @@
+<h2>Connectez-vous</h2>
+<p>ou <a href="#">créez un compte</a></p>
+
+<form (submit)="connexion()">
+  <p>E-mail: <input type="email" name="email" [(ngModel)]="email" required></p>
+  <p>Mot de Passe: <input type="password" name="name" [(ngModel)]="password" required></p>
+  <p><input type="submit" value="Se connecter"></p>
+</form>
+<p>{{ message }}</p>
